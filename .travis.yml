@@ -11,7 +11,7 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - pytest
+  # - pytest
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - sonar-scanner
 secure: H9NtWP8vUf5JQZBay3Lc1pnbQhICYuS0zK+GVgqPDSSdWNq/UIQdyP9WGbN+JTsifJGGBQIgIjlQrNdeY0hmHOvJ9vD8jinVzCekKt7qCbX33C52D7jmGzLQKDW0DZz8qct4HccYZ27KkYf+Bu0Zc0yuGevOALLAZO5N/ndvAOw6oV4VfvCD1Kd5MhMf03G2PZZmD1s4HU6BynXPXPA28DxDJEALSMEFFaNStw6FyxrvMu0+5KEkGTExZQv2zs7TE7dFwI8iCYogKBK5dsgWcRCYEKiJ9TjiSPdHkB/HTJVM2INSTvEEUQxM3DjhFDXxjkzYTMD73ydIJGmci6cOdvpuBVyjcKDf5Z8BtBxhMx/Mi5I6nRHgXcG5X/KoThEOhczTUN0Se3nRyOoFw0HPgvH233MvceiZux06tA46nPBOh09Dw5ceNvLr5L8Or7Tz/syZ8Sy2XFbn/lYTWd2lwu6vVVzBiZ1N1zk3jSpGkBxV3fxwWn5gG3AiwLHIa6BMNtYB4HOsD+sKtuJK7XsuSxwTkKpj8/ox7uLt5PHs/w18gz9ZdGJorngpTzJnMN2H7BRjN/zLTXT84X1HadoAOIiyL7+GzkxRpg05IPxrA+1iwERecADn/YfaXnbQbuVGbjSwpHZgP7wS38kj45m7b/iWmNsmH8Y1TiEHQW7PtX0=  
